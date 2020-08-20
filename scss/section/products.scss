@@ -1,0 +1,58 @@
+.products__about {
+  margin-bottom: 35px;
+}
+.products__title {
+  font: 500 36px "Roboto", sans-serif;
+  line-height: 46px;
+  color: #986a4f;
+  margin-bottom: 60px;
+  position: relative;
+  &::before {
+    content: "";
+    background: #6d7f5b;
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    bottom: -15px;
+  }
+}
+.product-yoga__about {
+  display: flex;
+}
+.product-yoga__image {
+  padding-right: 32px;
+}
+.product-yoga__photo {
+  width: 255px;
+  height: 255px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.product-yoga__photo-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.product__btn-link_yoga {
+  width: 100%;
+  &:first-child {
+    margin-bottom: 15px;
+  }
+}
+.product-yoga__info-title {
+  line-height: 34px;
+  font: 500 21px "Montserrat", sans-serif;
+  color: #6d7f5b;
+  margin-bottom: 15px;
+}
+.product-yoga__info-desc {
+  p {
+    &:first-child {
+      padding-bottom: 22px;
+    }
+  }
+}
+.content__about-link {
+  color: #6d7f5b;
+  font-weight: 500;
+  text-decoration: underline;
+}

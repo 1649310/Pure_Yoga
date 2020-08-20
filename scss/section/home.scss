@@ -87,7 +87,12 @@
   width: 75%;
   text-align: center;
 }
-.product__choice-pic {
-  border: 1px solid #6d7f5b;
-  padding: 0 0 4px 4px;
+.product__choice {
+  width: 117px;
+  height: 110px;
+  background: #6d7f5b;
+  border-bottom: 3px solid #fff;
+  border-left: 3px solid #fff;
+  border-bottom-left-radius: 100%;
+  box-shadow: 0 0 0 2px #6d7f5b;
 }
